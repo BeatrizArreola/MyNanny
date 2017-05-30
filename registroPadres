@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro Padres</title>
+
+  </head>
+
+
+  <form method="post" action="action_registroPadres.php"> 
+
+      <label>Usuario</label>
+      <input type="text" name="txtUsuario" placeholder="Usuario">
+      <br>
+
+      <label>Password</label>
+      <input type="text" name="txtPassword" placeholder="Password">
+      <br>
+
+      <label>Nombre</label>
+      <input type="text" name="txtNombre" placeholder="Nombre">
+      <br>
+    
+      <label>Apellido</label>
+      <input type="text" name="txtApellido" placeholder="Apellido">
+      <br>
+        
+      <label>Domicilio</label>
+      <input type="text" name="txtDomicilio" placeholder="Domicilio">
+      <br>
+
+      <label>Ciudad</label>
+      <input type="text" name="txtCiudad" placeholder="Ciudad">
+      <br>
+
+      <label>Telefono</label>
+      <input type="text" name="txtTelefono" placeholder="Telefono">
+      <br>
+
+      <label>Correo</label>
+      <input type="text" name="txtCorreo" placeholder="Correo">
+      <br>
+
+
+      <label>Foto Perfil</label>
+      <input type="file" name="imgPerfil" accept="image/*">
+      <br>
+
+
+      <label>Acta de Nacimiento</label>
+      <input type="file" name="imgActa" accept="image/*">
+      <br>
+
+
+      <label>Credencial INE</label>
+      <input type="file" name="imgINE" accept="image/*">
+      <br>
+
+      <label>Numero de Hijos</label>
+      <input type="text" name="txtHijos" placeholder="Numero de Hijos">
+      <br>
+
+
+    <button type="Submit"> Registrar Padre </button>
+
+  </form>
+
+  <body>
+  </body>
+
+</html>
